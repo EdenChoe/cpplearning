@@ -8,8 +8,8 @@
 
 #include <iostream>
 #include <ctime>
-#include <stdlib.h>
- 
+// include <stdlib.h>
+  
 using namespace std;
  
 int main( )
@@ -38,7 +38,7 @@ int main( )
     cout << "时间: "<< ltm->tm_hour << ":";
     cout << ltm->tm_min << ":";
     cout << ltm->tm_sec << endl;
-    system("pause");
+    //system("pause");
     return 0;
 }
 
